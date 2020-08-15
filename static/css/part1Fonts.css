@@ -1,0 +1,21 @@
+h1 {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+h3 {
+	color: green;
+	font-weight: bold;
+	text-decoration: underline;
+}
+ol{
+	font: "Candara";
+	color: blue;
+	border: dotted;
+	border-color: orange;
+	border-width: 5px;
+	font-style: italic;
+}
+body{
+	font-size: 20px;
+}

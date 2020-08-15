@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Page</title>
+</head>
+<body>
+	<h1>Signup here</h1>
+	<form method="post">
+		{% csrf_token %}
+		{{ f1.as_p }}
+		{{ f2.as_p }}
+		<input type="submit" value="Save">
+	</form>
+</body>
+</html>
